@@ -60,7 +60,7 @@ async function predict() {
 
     if (probability >= 75) {
       if (name.innerHTML !== className) {
-        name.innerHTML = classList ;
+        name.innerHTML = className;
         description.innerHTML = data[className];
   
 
